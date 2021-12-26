@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
 * {
   font-family: "montserrat";
   text-decoration: none;
@@ -10,7 +11,7 @@ body {
 header {
   text-align: center;
   padding: 0;
-  margin-top: 2%;
+  margin-top: 1em;
 }
 img {
   object-fit: cover;
@@ -18,7 +19,7 @@ img {
 }
 
 .profyle-photo img {
-  min-width: 8em;
+  min-width: 5em;
   max-width: 12%;
   margin: auto;
 }
@@ -36,8 +37,8 @@ img {
   border-radius: 0.85em;
 }
 .galery {
-  margin: 4% 1%;
   display: grid;
+  margin: 4% 1%;
   justify-content: center;
   grid-template-columns: repeat(3, minmax(5em, 20em));
   grid-template-rows: repeat(3, 1fr);
@@ -45,7 +46,7 @@ img {
 }
 
 .galery picture {
-  min-width: 8em;
+  min-width: 4em;
   margin: auto;
   height: 100%;
   width: 100%;
@@ -59,4 +60,9 @@ img {
 }
 .row-span2 {
   grid-row: span 2;
+}
+@media screen and (min-width: 660px) {
+  header {
+    margin-top: 2.5%;
+  }
 }
