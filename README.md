@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](src="screenshot.png")
+![screenshot](https://github.com/luisrodri6o/my-gallery-master/blob/master/public/pictures/screenshot.png)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 

@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
-
+/*                                                                                                             general */
 * {
   font-family: "montserrat";
   text-decoration: none;
@@ -17,7 +17,10 @@ img {
   object-fit: cover;
   border-radius: 0.6em;
 }
-
+footer {
+  margin-top: 4em;
+}
+/*                                                                                                                        profile */
 .profyle-photo img {
   min-width: 5em;
   max-width: 12%;
@@ -36,6 +39,7 @@ img {
   margin: 10px;
   border-radius: 0.85em;
 }
+/*                                                                                                                        galerky */
 .galery {
   display: grid;
   margin: 4% 1%;
@@ -61,6 +65,8 @@ img {
 .row-span2 {
   grid-row: span 2;
 }
+
+/*                                                                                                                          responsive */
 @media screen and (min-width: 660px) {
   header {
     margin-top: 2.5%;
